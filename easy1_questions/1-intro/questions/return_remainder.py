@@ -11,3 +11,7 @@ Examples
     remainder(5, 5) ➞ 0
     remainder(7, 2) ➞ 1
 """
+def remainder(a, b):
+    remainder = a % b 
+    return remainder
+    # % to find remainder

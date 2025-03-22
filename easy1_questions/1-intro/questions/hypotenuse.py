@@ -1,6 +1,6 @@
 """
 Create a function that finds the hypotenuse of a triangle, 
-when given two sides that are perpendicular to each other.
+when give two sides that are perpendicular to each other.
 
 the function must round the result to 1 decimal place.
 
@@ -19,13 +19,10 @@ Rounding Example:
 """
 import math
 
-def hypotenuse(num1, num2):
-    # This is the code for the hypotenuse
-    inside_equation = num1 ** 2 + num2 ** 2
-    hypotenuse =  math.sqrt(inside_equation)
-
-    # This is to round the number by 1
+def hypotenuse(a, b):
+    hypotenuse = math.sqrt(a ** 2 + b ** 2)
     rounded_number = round(hypotenuse, 1)
 
-    # return the rounded number
+    # return rounded number
     return rounded_number
+

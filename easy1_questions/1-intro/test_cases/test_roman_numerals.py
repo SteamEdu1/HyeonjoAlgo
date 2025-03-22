@@ -8,7 +8,7 @@ def test_example_1():
     assert converter("X") == 10
 
 def test_example_2():
-    assert converter("IV") == 9
+    assert converter("IV") == 4
 
 def test_example_3():
     assert converter("III") == 3

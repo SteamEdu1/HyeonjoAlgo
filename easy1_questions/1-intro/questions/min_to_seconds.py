@@ -6,3 +6,5 @@ Examples
     convert(3) ➞ 180
     convert(2) ➞ 120
 """
+def convert(a):
+    return (a * 60)

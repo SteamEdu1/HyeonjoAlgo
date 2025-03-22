@@ -7,3 +7,6 @@ Examples
     addition(9) ➞ 10
     addition(-3) ➞ -2
 """
+
+def addition(a):
+    return (a + 1)
