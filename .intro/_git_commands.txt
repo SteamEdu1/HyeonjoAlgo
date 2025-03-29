@@ -16,9 +16,17 @@ transfer / view your code online.
     - git clone <link of repository>
         which downloads and connects your online repository to your computer
         for you to use and work on locally
+    
     - git branch 
         this is the terminal command to show what branch you are on the repository
     - git pull
         this command pulls all changes in the current branch to your local folder
     - git checkout <name of branch>
         this command will now change your current branch to the target branch
+    
+    - git add .
+        adds all changed files in current branch for pushing
+    - git commit -m "<insert a message suitable to what was added>"
+        attaches a message to the added contents 
+    - git push
+        pushes the files you added to the online repository
