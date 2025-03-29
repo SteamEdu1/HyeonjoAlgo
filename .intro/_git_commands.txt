@@ -1,0 +1,24 @@
+Git is an open source software which acts like a google drive system
+for coders to collaborate and work on a program together.
+It is also used as source control to help manage files so that you can 
+transfer / view your code online.
+
+# Git terms:
+    - repository:
+        repository is a coding term which represents the name of the folder that
+        is hosted online
+    - source control:
+        source control is the more technical term to represent how online work
+        is saved and can be reverted to past states if there is a mistake.
+        this is google doc
+    
+# Git Commands (terminal)
+    - git clone <link of repository>
+        which downloads and connects your online repository to your computer
+        for you to use and work on locally
+    - git branch 
+        this is the terminal command to show what branch you are on the repository
+    - git pull
+        this command pulls all changes in the current branch to your local folder
+    - git checkout <name of branch>
+        this command will now change your current branch to the target branch
